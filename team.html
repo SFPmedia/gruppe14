@@ -35,7 +35,7 @@
 			<div id="cssmenu">
 				<ul>
 					<li><a href="index.html">Forside</a></li>
-					<li><a href="#">Events</a></li>
+					<li><a href="events.html">Events</a></li>
 					<li><a href="team.html">Team</a></li>
 					<li><a href="kontakt.php">Kontakt</a></li>
 				</ul>

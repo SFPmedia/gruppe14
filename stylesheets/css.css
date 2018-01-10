@@ -36,7 +36,7 @@ body {
 	background-size: cover;
 }
 .textbox {
-	padding:50px;
+	padding:50px 50px 0px 50px;
 	text-align: center;
 }
 .wrapper {
@@ -133,6 +133,22 @@ footerright {
 	padding: 0 20px;
 }
 .teaminfo{
+	max-width: 100%;	
+	padding: 0 20px;
+}
+
+/*Event */
+}
+	.eventbox {
+	max-width: 100%;
+	padding: 30px 0;
+}
+.eventpic{
+	max-width: 30%;
+	float: left;
+	padding: 0 20px;
+}
+.eventinfo{
 	max-width: 100%;	
 	padding: 0 20px;
 }
@@ -466,6 +482,18 @@ footerright {
 }
 	.textbox {
 	padding:0;
+}
+	.eventbox {
+	padding: 30px 0;
+}
+	.eventpic{
+	max-width: 100%;
+	float: none;
+	padding: 0;
+}
+	.eventinfo{
+	max-width: 100%;	
+	padding: 0 20px;
 }
 
 #googlemap {
