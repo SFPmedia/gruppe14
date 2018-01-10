@@ -19,35 +19,33 @@
 <!-- Stylesheets END -->
 </head>
 	<body>
-		
-		<!-- *** Page wrapper -->
-		<div class="wrapper">
 			
-<!-- *** Left side -->		
-		  <div class="infobox">
-					<div class="logo"><img src="billeder/logohvid.png" alt=""/></div>
-					<div class="infocontent"></div>
-					
-		  </div>
-			
-<!-- *** Right side -->			
-			<div class="rightwrapper">
-				<!-- *** Navigation -->
-			<div class="navigationwrapper">
-<div id="cssmenu">
-<ul>
-   <li><a href="index.html">Forside</a></li>
-   <li><a href="#">Events</a></li>
-   <li><a href="#">Team</a></li>
-   <li><a href="kontakt.php">Kontakt</a></li>
-</ul>
-</div>
-				</div>
+<div class="wrapper">
+	
+	<!-- *** Left side -->		
+	<div class="infobox">
+		<div class="logo"><img src="billeder/logohvid.png" alt=""/></div>
+		<div class="infocontent"></div>
+	</div>
+	
+	
+	<div class="rightwrapper">
+		<!-- *** Navigation -->
+		<div class="navigationwrapper">
+			<div id="cssmenu">
+				<ul>
+					<li><a href="index.html">Forside</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li><a href="kontakt.php">Kontakt</a></li>
+				</ul>
+			</div>
+		</div>
 <!-- Navigation END -->
-	<!-- *** Content -->				
-				<div class="content">
-					
-					<div class="contactleft">
+		
+		<div class="contactwrapper">
+			
+			<div class="contactleft">
 						<form method="post" action="sender.php">
 
 <fieldset>
@@ -80,30 +78,41 @@
 <label for="t10">&nbsp;</label><input id="t10" type="submit" name="submit" value="Send">
 &nbsp; &nbsp; <input type="reset" value=" Slet alt ">
 </fieldset>
-</form>
-					</div>	
-				
-				<div class="contactright">
-					
-					<iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.35922522143!2d12.571005316060553!3d55.682742104860566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652531ab10b0f63%3A0x7f8f1410ba6a0fac!2sGastronomisk+Innovation+P%2FS!5e0!3m2!1sda!2sdk!4v1513700174667" frameborder="0" style="border:0" allowfullscreen></iframe>
-					
-				</div>
-					
-				</div>
-			</div>
+</form></div>
+			
+		
+		<div class="contactright">
+					<iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.35922522143!2d12.571005316060553!3d55.682742104860566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652531ab10b0f63%3A0x7f8f1410ba6a0fac!2sGastronomisk+Innovation+P%2FS!5e0!3m2!1sda!2sdk!4v1513700174667" frameborder="0" style="border:0" allowfullscreen></iframe	
+		</div>
 		
 		</div>
-
-<footer id="footermargin">
-  <div class="footerleft">
-			<p>Frederiksborggade 1B, 4th<br>
-			1360 København K</p>
-
-			<p><a href="mailto:info@gastronomiskinnovation.dk">info@gastronomiskinnovation.dk</a><br>
-  +45 3110 6953</p></div>
-		<div class="footermiddle"></div>
-		<div class="footerright"></div></footer>
-<!-- *** Page wrapper END -->
 		
+		
+		</div>
+	</div>
+		</div>
+		
+		
+<footer>
+	<div class="footerleft">
+		<br><br>
+<h3>Frederiksborggade 1B, 4th<br>
+			1360 København K</h3>
+		
+		<p><a href="mailto:info@gastronomiskinnovation.dk">info@gastronomiskinnovation.dk</a><br>
+			+45 3110 6953</p></div>
+	
+	<div class="footermiddle">
+	<br><br>
+	<img src="billeder/if_facebook_2308066.png" style="height: 50px" alt="Facebook"/>
+    <img src="billeder/if_instagram_2308118.png" style="height: 50px" alt="Instagram"/></div>
+	
+	<div class="footerright">
+	<h2>Tilmeld dig vores nyhedsmail</h2>
+<input type="text" name="name" value="Navn"></p>
+<input type="email" name="email" value="Email"></p>
+  </div>
+</footer>
+	
 	</body>
 </html>
