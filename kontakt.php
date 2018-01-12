@@ -7,14 +7,13 @@
 <!-- *** Metatags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <!-- Metatags END -->
    
     <title>Gastronomisk innovation</title>
     
 <!-- *** Stylesheets -->
 	<link href="stylesheets/css.css" rel="stylesheet" type="text/css">
-	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="script.js"></script>
 <!-- Stylesheets END -->
 </head>
@@ -68,7 +67,7 @@
 <!-- næste input skjules med css for almindelige brugere, kun spambotter ser (og udfylder sandsynligvis) feltet -->
 
 <p><span class="ikkese"><label for="t7">Subject:</label>
-<input id="t7" type="text" name="subject"></p></span>
+<input id="t7" type="text" name="subject"></span></p>
 
 <textarea id="t8" name="besked" rows="10" cols="49"></textarea>
 
@@ -82,7 +81,7 @@
 			
 		
 		<div class="contactright">
-					<iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.35922522143!2d12.571005316060553!3d55.682742104860566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652531ab10b0f63%3A0x7f8f1410ba6a0fac!2sGastronomisk+Innovation+P%2FS!5e0!3m2!1sda!2sdk!4v1513700174667" frameborder="0" style="border:0" allowfullscreen></iframe	
+					<iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.35922522143!2d12.571005316060553!3d55.682742104860566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652531ab10b0f63%3A0x7f8f1410ba6a0fac!2sGastronomisk+Innovation+P%2FS!5e0!3m2!1sda!2sdk!4v1513700174667" frameborder="0" style="border:0" allowfullscreen></iframe>	
 		</div>
 		
 		</div>
@@ -90,7 +89,6 @@
 		
 		</div>
 	</div>
-		</div>
 		
 		
 <footer>
@@ -109,8 +107,8 @@
 	
 	<div class="footerright">
 	<h2>Tilmeld dig vores nyhedsmail</h2>
-<input type="text" name="name" value="Navn"></p>
-<input type="email" name="email" value="Email"></p>
+<p><input type="text" name="name" value="Navn"></p>
+<p><input type="email" name="email" value="Email"></p>
   </div>
 </footer>
 	
